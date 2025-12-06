@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #703BF7;
+  --color-primary-hover: #5c2fd6;
+  --color-bg-light: #EFEFEF;
+  --color-text-dark: #1F1F1F;
+  --color-text-medium: #0F0F0F;
+  --color-text-gray: #686666;
+  
+  /* Dark palette */
+  --color-dark-100: #F5F5F5;
+  --color-dark-200: #999999;
+  --color-dark-300: #666666;
+  --color-dark-400: #1A1A1A;
+  
+  /* Border radius */
+  --radius-14: 14px;
+  --radius-20: 20px;
+  
+  /* Font families */
+  --font-family-roboto-flex: 'Roboto Flex', sans-serif;
+  --font-family-barlow: 'Barlow', sans-serif;
+  --font-family-roboto-mono: 'Roboto Mono', monospace;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+}
+
+/* Custom font utilities */
+@layer utilities {
+  .font-roboto-flex {
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  
+  .font-barlow {
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  .font-roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+  }
+}
