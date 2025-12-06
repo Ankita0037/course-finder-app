@@ -43,10 +43,9 @@ const HeroSection = () => {
           {/* Left Content Container */}
           <div
             className="min-h-[350px] sm:min-h-[380px] md:min-h-[420px] xl:h-[450px] flex-1 bg-[#EFEFEF] rounded-[16px] sm:rounded-[20px] relative flex flex-col justify-center items-center p-6 sm:p-8 md:p-12 xl:p-0 pb-20 sm:pb-24 md:pb-28"
-            style={{ paddingTop: "40px" }}
           >
             {/* Sub Container - Content */}
-            <div className="flex flex-col justify-center items-start gap-1 sm:gap-2 w-full xl:w-[880px] xl:px-[60px]">
+            <div className="flex flex-col justify-center items-start gap-1 sm:gap-2 w-full xl:w-[880px] xl:px-[40px]">
               {/* Desktop Layout: First Heading Row with button */}
               <div className="hidden lg:flex items-center gap-[30px] w-full">
                 <h1

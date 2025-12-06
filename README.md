@@ -6,8 +6,7 @@ A modern, responsive course discovery platform built with React and Tailwind CSS
 
 ## 🚀 Live Demo
 
-- **React App**: [Deployed on Vercel/Netlify](#)
-- **Webflow Landing**: [View Webflow Project](#)
+- **React App**: [Deployed on Vercel](#https://course-finder-app.vercel.app/)
 
 ## ✨ Features
 

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import SearchBar from './components/SearchBar';
 import CourseList from './components/CourseList';
+import ApiDisplay from './components/ApiDisplay';
 import { courses, categories } from './data/courses';
 
 function App() {
@@ -25,6 +26,11 @@ function App() {
       
       {/* Hero Section with Stats - Full Width */}
       <HeroSection />
+      
+      {/* Inspirational Quote - API Integration */}
+      <div className="px-4 lg:px-[50px] py-6 lg:py-8">
+        <ApiDisplay />
+      </div>
       
       {/* Course Finder Section - Assignment Requirement */}
       <main className="px-4 lg:px-[50px] py-6 lg:py-8">
